@@ -12,6 +12,6 @@ public class Sphere extends Figure {
 
     @Override
     double getVolume() {
-        return 0;
+        return (4/3) * Math.PI * Math.pow(radius, 3);
     }
 }
