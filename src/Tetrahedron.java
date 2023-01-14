@@ -1,6 +1,7 @@
 public class Tetrahedron extends Figure{
     private double area;
 
+
     public Tetrahedron(double area){
         this.area = area;
     }

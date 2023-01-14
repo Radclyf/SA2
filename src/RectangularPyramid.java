@@ -3,6 +3,7 @@ public class RectangularPyramid extends Figure{
     private double width1;
     private double height1;
 
+
     public RectangularPyramid(double length1, double width1, double height1){
         this.length1 = length1;
         this.width1 = width1;

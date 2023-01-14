@@ -3,6 +3,7 @@ public class Prism extends Figure{
     private double perimeter;
     private double height3;
 
+
     public Prism(double base, double perimeter, double height3){
         this.base = base;
         this.perimeter = perimeter;

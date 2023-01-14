@@ -2,6 +2,7 @@ public class RightCircularCone extends Figure{
     public double radius1;
     public double height4;
 
+
     public RightCircularCone(double radius1, double height4){
         this.radius1 = radius1;
         this.height4 = height4;

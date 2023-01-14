@@ -3,6 +3,7 @@ public class RectangularSolid extends Figure{
     private double width;
     private double height;
 
+
     public RectangularSolid(double length, double width, double height) {
         this.length = length;
         this.width = width;
