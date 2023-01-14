@@ -43,5 +43,10 @@ public class RectangularPyramid extends Figure{
         double getVolume() {
             return length2 * width2 * height2 / 3;
         }
+
+        @Override
+        public String toString() {
+            return "Pyramid (surface area: " + getSurfaceArea() + ", volume: " + getVolume() + ")";
+        }
     }
 }
