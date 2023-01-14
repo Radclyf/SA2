@@ -30,5 +30,20 @@ public class Sphere extends Figure {
             this.r2 = r2;
             this.r3 = r3;
         }
+
+        @Override
+        double getSurfaceArea() {
+            return 4 * Math.PI * Math.sqrt((r1*r2 + r2*r3 + r1*r3)/3);
+        }
+
+        @Override
+        double getVolume() {
+            return (4 / 3) * Math.PI * r1 * r2 * r3;
+        }
+
+        @Override
+        public String toString() {
+            return "Ellipsoid (surface area: " + getSurfaceArea() + ", volume: " + getVolume() + ")";
+        }
     }
 }
