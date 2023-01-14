@@ -3,7 +3,7 @@ public class RectangularSolid extends Figure{
     private double width;
     private double height;
 
-    public RectangularSolid(double length) {
+    public RectangularSolid(double length, double width, double height) {
         this.length = length;
         this.width = width;
         this.height = height;
@@ -28,7 +28,7 @@ public class RectangularSolid extends Figure{
         private double s1;
 
         public Cube(double s1) {
-            super(s1);
+            super(s1, s1, s1);
             this.s1 = s1;
         }
 
